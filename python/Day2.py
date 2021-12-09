@@ -39,7 +39,7 @@ def part_2() -> None:
                 case _:
                     raise ValueError(f"Unsupported command {row.split(' ')[0]}")
 
-    print("Day:  2 | Part: 1 | Result:", h_pos * v_pos)
+    print("Day:  2 | Part: 2 | Result:", h_pos * v_pos)
 
 
 if __name__ == "__main__":
