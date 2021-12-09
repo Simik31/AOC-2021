@@ -15,6 +15,7 @@ func Day1_Part1() {
 		if last > 0 && nums[num] > last {
 			count++
 		}
+
 		last = nums[num]
 	}
 
@@ -23,22 +24,18 @@ func Day1_Part1() {
 
 func Day1_Part2() {
 	nums := utils.ReadFileInts("../data/day1.txt")
-	sums := make([]int, len(nums))
-
-	for index := 0; index < len(nums)-2; index++ {
-		for offset := 0; offset < 3; offset++ {
-			sums[index] += nums[index+offset]
-		}
-	}
 
 	var last = -1
 	var count = 0
 
-	for sum := range sums {
-		if last > 0 && sums[sum] > last {
+	for index := 0; index < len(nums)-2; index++ {
+		var sum = nums[index] + nums[index+1] + nums[index+2]
+
+		if last > 0 && sum > last {
 			count++
 		}
-		last = sums[sum]
+
+		last = sum
 	}
 
 	fmt.Printf("Day:  1 | Part: 2 | Result: %d\n", count)

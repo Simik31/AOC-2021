@@ -54,4 +54,4 @@ Click on star to go to code.
 [csd1p1]: cs/Day1.cs#L8
 [csd1p2]: cs/Day1.cs#L25
 [gd1p1]: go/Day1.go#L8
-[gd1p2]: go/Day1.go#L24
+[gd1p2]: go/Day1.go#L25
