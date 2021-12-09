@@ -82,5 +82,11 @@ Click on star to go to code.
 [u01d]: README.md#Progress
 [u01e]: nodejs/Day2.js#L4
 [u01f]: nodejs/Day2.js#L29
+[u020]: README.md#Progress
+[u021]: README.md#Progress
+[u022]: python/Day2.py#L1
+[u023]: python/Day2.py#L22
+[u024]: README.md#Progress
+[u025]: README.md#Progress
 
 [//]: <>
