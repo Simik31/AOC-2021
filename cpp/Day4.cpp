@@ -37,8 +37,6 @@ void Day4::part1()
 
 	for (int i = 1; i < lines.size(); i++)
 	{
-		int num_id = 0;
-
 		if (lines[i] == "")
 		{
 			rows.push_back(std::vector<std::vector<int>>());
@@ -58,7 +56,6 @@ void Day4::part1()
 				{
 					rows.back().back().push_back(std::stoi(num_s));
 					mark.back().back().push_back(false);
-					num_id++;
 				}
 			}
 		}
