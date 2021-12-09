@@ -48,22 +48,22 @@ Click on star to go to code.
 |         24 |         ❌❌         |         ❌❌         |         ❌❌         |         ❌❌         |         ❌❌         |         ❌❌         |         ❌❌         |         ❌❌         |         ❌❌         |
 |         25 |         ❌❌         |         ❌❌         |         ❌❌         |         ❌❌         |         ❌❌         |         ❌❌         |         ❌❌         |         ❌❌         |         ❌❌         |
 
-[u000]: https://adventofcode.com/2021/day/1
-[u001]: cpp/Day1.cpp#L3
-[u002]: cpp/Day1.cpp#L22
-[u003]: cs/Day1.cs#L8
-[u004]: cs/Day1.cs#L25
-[u005]: go/Day1.go#L8
-[u006]: go/Day1.go#L25
-[u007]: java/src/cz/simik31/aoc2021/Day1.java#L5
-[u008]: java/src/cz/simik31/aoc2021/Day1.java#L18
-[u009]: README.md#Progress
-[u00a]: README.md#Progress
-[u00b]: nodejs/Day1.js#L4
-[u00c]: nodejs/Day1.js#L19
-[u00d]: README.md#Progress
-[u00e]: README.md#Progress
-[u00f]: python/Day1.py#L1
-[u010]: python/Day1.py#L17
-[u011]: README.md#Progress
-[u012]: README.md#Progress
+[link000]: https://adventofcode.com/2021/day/1
+[link001]: cpp/Day1.cpp#L3
+[link002]: cpp/Day1.cpp#L22
+[link003]: cs/Day1.cs#L8
+[link004]: cs/Day1.cs#L25
+[link005]: go/Day1.go#L8
+[link006]: go/Day1.go#L25
+[link007]: java/src/cz/simik31/aoc2021/Day1.java#L5
+[link008]: java/src/cz/simik31/aoc2021/Day1.java#L18
+[link009]: README.md#Progress
+[link00a]: README.md#Progress
+[link00b]: nodejs/Day1.js#L4
+[link00c]: nodejs/Day1.js#L19
+[link00d]: README.md#Progress
+[link00e]: README.md#Progress
+[link00f]: python/Day1.py#L1
+[link010]: python/Day1.py#L17
+[link011]: README.md#Progress
+[link012]: README.md#Progress
