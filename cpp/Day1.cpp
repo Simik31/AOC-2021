@@ -5,8 +5,7 @@ void Day1::part1()
     std::vector<std::string> lines;
     Utils::read_lines_from_file("../data/day1.txt", lines);
     
-    int last = -1;
-    int count = 0;
+    int last = -1, count = 0;
 
     for (std::string line : lines)
     {
@@ -25,23 +24,15 @@ void Day1::part2()
     std::vector<std::string> lines;
     Utils::read_lines_from_file("../data/day1.txt", lines);
 
-    std::vector<int> sums;
+    int last = -1, count = 0;
+
     for (size_t index = 0; index < lines.size() - 2; index++)
     {
-        int sum = 0;
+        int sum = std::stoi(lines[index]) + std::stoi(lines[index + 1]) + std::stoi(lines[index + 2]);
 
-        for (int off = 0; off < 3; off++)
-            sum += std::stoi(lines[index + off]);
-        sums.push_back(sum);
-    }
-
-    int last = -1;
-    int count = 0;
-
-    for (int sum : sums)
-    {
         if (last > 0 && sum > last)
             count++;
+
         last = sum;
     }
 
