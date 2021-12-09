@@ -9,13 +9,13 @@ namespace cs
     {
         public static void Part1()
         {
-            int last = -1;
-            int count = 0;
+            int last = -1, count = 0;
 
             File.ReadAllLines(@"../../../../../data/day1.txt").Select(line => int.Parse(line)).ToList().ForEach(num =>
             {
                 if (last > 0 && num > last)
                     count++;
+
                 last = num;
             });
 
@@ -25,22 +25,18 @@ namespace cs
         public static void Part2()
         {
             List<string> lines = File.ReadAllLines(@"../../../../../data/day1.txt").ToList();
-            List<int> sums = new List<int>();
+
+            int last = -1, count = 0;
 
             for (int index = 0; index < lines.Count - 2; index++)
             {
-                int sum = 0;
+                int sum = int.Parse(lines[index]) + int.Parse(lines[index + 1]) + int.Parse(lines[index + 2]);
+
                 for (int off = 0; off < 3; off++) sum += int.Parse(lines[index + off]);
-                sums.Add(sum);
-            }
 
-            int last = -1;
-            int count = 0;
-
-            foreach (int sum in sums)
-            {
                 if (last > 0 && sum > last)
                     count++;
+
                 last = sum;
             }
 
