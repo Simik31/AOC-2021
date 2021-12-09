@@ -1,0 +1,12 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "Advent of Code 2021 - Node.js solution",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Simik31 (https://github.com/Simik31)",
+  "license": "MIT"
+}
