@@ -99,5 +99,5 @@ Click on star to go to code.
 [u02a]: cs/Day3.cs#L29
 [u02b]: go/Day3.go#L8
 [u02c]: go/Day3.go#L37
-[u01d]: java/src/cz/simik31/aoc2021/Day3.java#L6
-[u01e]: java/src/cz/simik31/aoc2021/Day3.java#L26
+[u02d]: java/src/cz/simik31/aoc2021/Day3.java#L6
+[u02e]: java/src/cz/simik31/aoc2021/Day3.java#L26
