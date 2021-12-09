@@ -50,7 +50,7 @@ Click on star to go to code.
 
 [d1url]: https://adventofcode.com/2021/day/1
 [cppd1p1]: cpp/Day1.cpp#L3
-[cppd1p2]: cpp/Day1.cpp#L23
+[cppd1p2]: cpp/Day1.cpp#L22
 [csd1p1]: cs/Day1.cs#L10
 [csd1p2]: cs/Day1.cs#L25
 [gd1p1]: go/Day1.go#L8
