@@ -101,7 +101,7 @@ Click on star to go to code.
 [u02c]: go/Day3.go#L37
 [u02d]: java/src/cz/simik31/aoc2021/Day3.java#L6
 [u02e]: java/src/cz/simik31/aoc2021/Day3.java#L26
-[u01f]: README.md#Progress
+[u02f]: README.md#Progress
 [u031]: README.md#Progress
 [u032]: nodejs/Day3.js#L4
 [u033]: nodejs/Day3.js#L21
