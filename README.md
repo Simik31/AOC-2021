@@ -48,23 +48,22 @@ Click on star to go to code.
 |         24 |         ❌❌         |         ❌❌         |         ❌❌         |         ❌❌         |         ❌❌         |         ❌❌         |         ❌❌         |         ❌❌         |         ❌❌         |
 |         25 |         ❌❌         |         ❌❌         |         ❌❌         |         ❌❌         |         ❌❌         |         ❌❌         |         ❌❌         |         ❌❌         |         ❌❌         |
 
-<!--                                 HEX :p --->
-<!--- Day 1 URL               ---> [u000]: https://adventofcode.com/2021/day/1
-<!--- Day 1 C++        Part 1 ---> [u001]: cpp/Day1.cpp#L3
-<!--- Day 1 C++        Part 2 ---> [u002]: cpp/Day1.cpp#L22
-<!--- Day 1 C#         Part 1 ---> [u003]: cs/Day1.cs#L8
-<!--- Day 1 C#         Part 2 ---> [u004]: cs/Day1.cs#L25
-<!--- Day 1 GO         Part 1 ---> [u005]: go/Day1.go#L8
-<!--- Day 1 GO         Part 2 ---> [u006]: go/Day1.go#L25
-<!--- Day 1 Java       Part 1 ---> [u007]: java/src/cz/simik31/aoc2021/Day1.java#L5
-<!--- Day 1 Java       Part 2 ---> [u008]: java/src/cz/simik31/aoc2021/Day1.java#L18
-<!--- Day 1 JavaScript Part 1 ---> [u009]: README.md#Progress
-<!--- Day 1 JavaScript Part 2 ---> [u00a]: README.md#Progress
-<!--- Day 1 Node       Part 1 ---> [u00b]: nodejs/Day1.js#L4
-<!--- Day 1 Node       Part 2 ---> [u00c]: nodejs/Day1.js#L19
-<!--- Day 1 PHP        Part 1 ---> [u00d]: README.md#Progress
-<!--- Day 1 PHP        Part 2 ---> [u00e]: README.md#Progress
-<!--- Day 1 Python     Part 1 ---> [u00f]: python/Day1.py#L1
-<!--- Day 1 Python     Part 2 ---> [u010]: python/Day1.py#L17
-<!--- Day 1 TypeScript Part 1 ---> [u011]: README.md#Progress
-<!--- Day 1 TypeScript Part 2 ---> [u012]: README.md#Progress
+[u000]: https://adventofcode.com/2021/day/1
+[u001]: cpp/Day1.cpp#L3
+[u002]: cpp/Day1.cpp#L22
+[u003]: cs/Day1.cs#L8
+[u004]: cs/Day1.cs#L25
+[u005]: go/Day1.go#L8
+[u006]: go/Day1.go#L25
+[u007]: java/src/cz/simik31/aoc2021/Day1.java#L5
+[u008]: java/src/cz/simik31/aoc2021/Day1.java#L18
+[u009]: README.md#Progress
+[u00a]: README.md#Progress
+[u00b]: nodejs/Day1.js#L4
+[u00c]: nodejs/Day1.js#L19
+[u00d]: README.md#Progress
+[u00e]: README.md#Progress
+[u00f]: python/Day1.py#L1
+[u010]: python/Day1.py#L17
+[u011]: README.md#Progress
+[u012]: README.md#Progress
