@@ -9,5 +9,7 @@ public class Main {
         Day2.part_2();
         Day3.part_1();
         Day3.part_2();
+        Day4.part_1();
+        Day4.part_2();
     }
 }
