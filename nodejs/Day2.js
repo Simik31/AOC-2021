@@ -49,6 +49,6 @@ module.exports = {
             }
         })
 
-        console.info("Day:  2 | Part: 1 | Result: " + (h_pos * v_pos))
+        console.info("Day:  2 | Part: 2 | Result: " + (h_pos * v_pos))
     }
 }
