@@ -77,8 +77,8 @@ Click on star to go to code.
 [u023]: java/src/cz/simik31/aoc2021/Day2.java#L26
 [u024]: nodejs/Day2.js#L4
 [u025]: nodejs/Day2.js#L29
-[u011]: php/Day2.php#L4
-[u012]: php/Day2.php#L29
+[u026]: php/Day2.php#L4
+[u027]: php/Day2.php#L29
 [u028]: python/Day2.py#L1
 [u029]: python/Day2.py#L22
 
