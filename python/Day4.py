@@ -126,3 +126,8 @@ def part_2() -> None:
                 board_sum += rows[bingo][r][n]
 
     print("Day:  4 | Part: 2 | Result:", board_sum * last_draw)
+
+
+if __name__ == "__main__":
+    part_1()
+    part_2()
