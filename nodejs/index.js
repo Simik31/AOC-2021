@@ -1,4 +1,4 @@
-for (var day = 1; day <= 4; day++) {
+for (var day = 1; day <= 5; day++) {
     var Day = require('./Day' + day + '.js');
 
     Day:part1();
