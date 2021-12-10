@@ -9,7 +9,7 @@
         $lines = array();
 
         while (($line = fgets($file)) !== false) {
-            array_push($lines, $line);
+            array_push($lines, trim($line));
         }
 
         return $lines;
