@@ -9,4 +9,6 @@ func main() {
 	Day3_Part2()
 	Day4_Part1()
 	Day4_Part2()
+	Day5_Part1()
+	Day5_Part2()
 }
