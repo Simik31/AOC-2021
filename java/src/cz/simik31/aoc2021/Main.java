@@ -11,5 +11,7 @@ public class Main {
         Day3.part_2();
         Day4.part_1();
         Day4.part_2();
+        Day5.part_1();
+        Day5.part_2();
     }
 }
