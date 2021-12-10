@@ -8,11 +8,9 @@
 - C# (.NET Framework 4.7.2)
 - Go 1.17.4
 - Java 17.0.1
-- JavaScript
 - Node.js 17.2.0
 - PHP 8.0.13
 - Python 3.10
-- TypeScript
 
 ## Progress:
 
