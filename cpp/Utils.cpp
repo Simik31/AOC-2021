@@ -1,8 +1,8 @@
 #include "Utils.h"
 
-void Utils::read_lines_from_file(std::string filename, std::vector<std::string>& lines)
+void Utils::read_lines_from_file(string filename, vector<string>& lines)
 {
-    std::ifstream file;
+    ifstream file;
     file.open(filename);
 
     if (!file.is_open())
@@ -13,35 +13,35 @@ void Utils::read_lines_from_file(std::string filename, std::vector<std::string>&
 
     lines.clear();
 
-    std::string line;
+    string line;
     while (getline(file, line))
         lines.push_back(line);
 
     file.close();
 }
 
-void Utils::split_string(std::string& str, const char* sep, std::vector<std::string>& strings)
+void Utils::split_string(string& str, const char* sep, vector<string>& strings)
 {
-    std::string separator = std::string(sep);
+    string separator = string(sep);
     size_t initialPos = 0;
     size_t pos;
 
     strings.clear();
 
-    while ((pos = str.find(separator, initialPos)) != std::string::npos)
+    while ((pos = str.find(separator, initialPos)) != string::npos)
     {
         strings.push_back(str.substr(initialPos, pos - initialPos));
         initialPos = pos + separator.size();
     }
 
-    strings.push_back(str.substr(initialPos, std::min(pos, str.size()) - initialPos + 1));
+    strings.push_back(str.substr(initialPos, min(pos, str.size()) - initialPos + 1));
 }
 
-void Utils::split_string_regex(std::string& str, std::string regex, std::vector<std::string>& strings)
+void Utils::split_string_regex(string& str, string regex_str, vector<string>& strings)
 {
-    std::regex rgx(regex);
-    std::sregex_token_iterator iter(str.begin(), str.end(), rgx, -1);
-    std::sregex_token_iterator end;
+    regex reg_ex(regex_str);
+    sregex_token_iterator iter(str.begin(), str.end(), reg_ex, -1);
+    sregex_token_iterator end;
 
     strings.clear();
 

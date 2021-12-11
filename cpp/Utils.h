@@ -7,11 +7,13 @@
 #include <regex>
 #include <fstream>
 
+using namespace std;
+
 class Utils
 {
 public:
-	static void read_lines_from_file(std::string filename, std::vector<std::string>& lines);
-	static void split_string(std::string& str, const char* sep, std::vector<std::string>& strings);
-	static void split_string_regex(std::string& str, std::string regex, std::vector<std::string>& strings);
+	static void read_lines_from_file(string filename, vector<string>& lines);
+	static void split_string(string& str, const char* sep, vector<string>& strings);
+	static void split_string_regex(string& str, string regex, vector<string>& strings);
 };
 #endif
