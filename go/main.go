@@ -15,4 +15,8 @@ func main() {
 	Day6_Part2()
 	Day7_Part1()
 	Day7_Part2()
+	// Day8_Part1()
+	// Day8_Part2()
+	Day9_Part1()
+	Day9_Part2()
 }
