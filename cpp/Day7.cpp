@@ -2,22 +2,22 @@
 
 void Day7::part1()
 {
-    std::vector<std::string> lines;
+    vector<string> lines;
     Utils::read_lines_from_file("../data/day7.txt", lines);
 
-    std::vector<int> positions;
-    std::set<int> positions_set;
+    vector<int> positions;
+    set<int> positions_set;
 
-    std::vector<std::string> num_s_v;
+    vector<string> num_s_v;
     Utils::split_string(lines[0], ",", num_s_v);
 
-    for (std::string num_s : num_s_v)
+    for (string num_s : num_s_v)
     {
-        positions.push_back(std::stoi(num_s));
-        positions_set.insert(std::stoi(num_s));
+        positions.push_back(stoi(num_s));
+        positions_set.insert(stoi(num_s));
     }
 
-    int min_cost = std::numeric_limits<int>::max();
+    int min_cost = numeric_limits<int>::max();
 
     for (int end_position : positions_set)
     {
@@ -28,24 +28,24 @@ void Day7::part1()
         if (position_cost < min_cost) min_cost = position_cost;
     }
 
-    std::cout << "Day:  7 | Part: 1 | Result: " << min_cost << std::endl;
+    cout << "Day:  7 | Part: 1 | Result: " << min_cost << endl;
 }
 
 void Day7::part2()
 {
-    std::vector<std::string> lines;
+    vector<string> lines;
     Utils::read_lines_from_file("../data/day7.txt", lines);
 
-    std::vector<int> positions;
-    std::set<int> positions_set;
+    vector<int> positions;
+    set<int> positions_set;
     int max_position = 0;
 
-    std::vector<std::string> num_s_v;
+    vector<string> num_s_v;
     Utils::split_string(lines[0], ",", num_s_v);
 
-    for (std::string num_s : num_s_v)
+    for (string num_s : num_s_v)
     {
-        int position = std::stoi(num_s);
+        int position = stoi(num_s);
 
         positions.push_back(position);
         positions_set.insert(position);
@@ -53,7 +53,7 @@ void Day7::part2()
         if (position > max_position) max_position = position;
     }
 
-    int min_cost = std::numeric_limits<int>::max();
+    int min_cost = numeric_limits<int>::max();
 
     for (int end_position = 1; end_position < max_position; end_position++)
     {
@@ -66,5 +66,5 @@ void Day7::part2()
         if (position_cost < min_cost) min_cost = position_cost;
     }
 
-    std::cout << "Day:  7 | Part: 2 | Result: " << min_cost << std::endl;
+    cout << "Day:  7 | Part: 2 | Result: " << min_cost << endl;
 }
