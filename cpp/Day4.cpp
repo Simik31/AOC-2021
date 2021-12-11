@@ -1,6 +1,6 @@
 #include "Day4.h"
 
-bool Day4::testBoardForBingo(std::vector<std::vector<int>> marked)
+bool Day4::testBoardForBingo(vector<vector<int>> marked)
 {
 	for (int row_id = 0; row_id < marked.size(); row_id++)
 	{
@@ -22,39 +22,39 @@ bool Day4::testBoardForBingo(std::vector<std::vector<int>> marked)
 
 void Day4::part1()
 {
-	std::vector<std::string> lines;
+	vector<string> lines;
 	Utils::read_lines_from_file("../data/day4.txt", lines);
 
-	std::vector<std::vector<std::vector<int>>> rows;
-	std::vector<std::vector<std::vector<int>>> mark;
-	std::vector<int> order;
+	vector<vector<vector<int>>> rows;
+	vector<vector<vector<int>>> mark;
+	vector<int> order;
 
-	std::vector<std::string> order_s;
+	vector<string> order_s;
 	Utils::split_string(lines[0], ",", order_s);
 
-	for (std::string num_s : order_s)
-		order.push_back(std::stoi(num_s));
+	for (string num_s : order_s)
+		order.push_back(stoi(num_s));
 
 	for (int i = 1; i < lines.size(); i++)
 	{
 		if (lines[i] == "")
 		{
-			rows.push_back(std::vector<std::vector<int>>());
-			mark.push_back(std::vector<std::vector<int>>());
+			rows.push_back(vector<vector<int>>());
+			mark.push_back(vector<vector<int>>());
 		}
 		else
 		{
-			rows.back().push_back(std::vector<int>());
-			mark.back().push_back(std::vector<int>());
+			rows.back().push_back(vector<int>());
+			mark.back().push_back(vector<int>());
 
-			std::vector<std::string> num_s_v;
+			vector<string> num_s_v;
 			Utils::split_string_regex(lines[i], "([^\\d])", num_s_v);
 
-			for (std::string num_s : num_s_v)
+			for (string num_s : num_s_v)
 			{
 				if (num_s != "")
 				{
-					rows.back().back().push_back(std::stoi(num_s));
+					rows.back().back().push_back(stoi(num_s));
 					mark.back().back().push_back(false);
 				}
 			}
@@ -89,46 +89,46 @@ void Day4::part1()
 				board_sum += rows[bingo][r][n];
 	}
 
-	std::cout << "Day:  4 | Part: 1 | Result: " << board_sum * last_draw << std::endl;
+	cout << "Day:  4 | Part: 1 | Result: " << board_sum * last_draw << endl;
 }
 
 void Day4::part2()
 {
-	std::vector<std::string> lines;
+	vector<string> lines;
 	Utils::read_lines_from_file("../data/day4.txt", lines);
 
-	std::vector<bool> bins;
-	std::vector<std::vector<std::vector<int>>> rows;
-	std::vector<std::vector<std::vector<int>>> mark;
-	std::vector<int> order;
+	vector<bool> bins;
+	vector<vector<vector<int>>> rows;
+	vector<vector<vector<int>>> mark;
+	vector<int> order;
 
-	std::vector<std::string> order_s;
+	vector<string> order_s;
 	Utils::split_string(lines[0], ",", order_s);
 
-	for (std::string num_s : order_s)
-		order.push_back(std::stoi(num_s));
+	for (string num_s : order_s)
+		order.push_back(stoi(num_s));
 
 	for (int i = 1; i < lines.size(); i++)
 	{
 		if (lines[i] == "")
 		{
 			bins.push_back(false);
-			rows.push_back(std::vector<std::vector<int>>());
-			mark.push_back(std::vector<std::vector<int>>());
+			rows.push_back(vector<vector<int>>());
+			mark.push_back(vector<vector<int>>());
 		}
 		else
 		{
-			rows.back().push_back(std::vector<int>());
-			mark.back().push_back(std::vector<int>());
+			rows.back().push_back(vector<int>());
+			mark.back().push_back(vector<int>());
 
-			std::vector<std::string> num_s_v;
+			vector<string> num_s_v;
 			Utils::split_string_regex(lines[i], "([^\\d])", num_s_v);
 
-			for (std::string num_s : num_s_v)
+			for (string num_s : num_s_v)
 			{
 				if (num_s != "")
 				{
-					rows.back().back().push_back(std::stoi(num_s));
+					rows.back().back().push_back(stoi(num_s));
 					mark.back().back().push_back(false);
 				}
 			}
@@ -166,5 +166,5 @@ void Day4::part2()
 			if (mark[bingo][r][n] == false)
 				board_sum += rows[bingo][r][n];
 
-	std::cout << "Day:  4 | Part: 2 | Result: " << board_sum * last_draw << std::endl;
+	cout << "Day:  4 | Part: 2 | Result: " << board_sum * last_draw << endl;
 }

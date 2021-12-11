@@ -13,7 +13,7 @@ public:
 	static void part1();
 	static void part2();
 private:
-	static bool testBoardForBingo(std::vector<std::vector<int>> marked);
+	static bool testBoardForBingo(vector<vector<int>> marked);
 };
 
 #endif
