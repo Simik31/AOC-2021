@@ -12,7 +12,7 @@ public:
 	static void part1();
 	static void part2();
 private:
-	static int backtrack_basins(std::vector<std::vector<int>>& height_map, int r, int c, int counter, std::vector<std::pair<int, int>>& visited);
+	static int backtrack_basins(vector<vector<int>>& height_map, int r, int c, int counter, vector<pair<int, int>>& visited);
 };
 
 #endif
