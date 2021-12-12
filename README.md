@@ -6,7 +6,7 @@
 
 - C++ 14 Standard
 - C# (.NET Framework 4.7.2)
-- Go 1.17.4
+- Go 1.17.5
 - Java 17.0.1
 - Node.js 17.2.0
 - PHP 8.0.13
