@@ -77,7 +77,7 @@ Open [`cs/cs.sln`](cs/cs.sln) in [Visual Studio](https://visualstudio.microsoft.
 
 Open [`java/AOC-2021.iml`](java/AOC-2021.iml) in [IntelliJ IDEA](https://www.jetbrains.com/idea/ "Get IntelliJ IDEA") to run the project.
 
-> Run the project by clicking on the green arrow next to the [`public class Main {`](java/Main.java#L3) in [`Main.java`](java/Main.java).
+> Run the project by clicking on the green arrow next to the [`public class Main {`](java/src/cz/simik31/aoc2021/Main.java#L3) in [`Main.java`](java/src/cz/simik31/aoc2021/Main.java).
 
 ### Node.js
 
