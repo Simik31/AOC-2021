@@ -46,6 +46,68 @@ Click on star to go to code.
 |         24 |         ❌❌         |         ❌❌         |         ❌❌         |         ❌❌         |         ❌❌         |         ❌❌         |         ❌❌         |
 |         25 |         ❌❌         |         ❌❌         |         ❌❌         |         ❌❌         |         ❌❌         |         ❌❌         |         ❌❌         |
 
+## How to run
+
+Get the code:
+
+```
+    git clone https://github.com/Simik31/AOC-2021.git
+```
+
+### C++
+
+Open [`cpp/cpp.sln`](cpp/cpp.sln) in Visual Studio to build and run the project.
+
+### C#
+
+Open [`cs/cs.sln`](cs/cs.sln) in Visual Studio to build and run the project.
+
+### Go
+
+```console
+    cd ./go
+    go run .
+```
+
+### Java
+
+Open [`java/java.iml`](java/java.iml) in IntelliJ IDEA to build and run the project.
+
+### Node.js
+
+```console
+    cd ./nodejs
+    node .
+```
+
+### PHP
+
+- Run local server.
+- In browser:
+  - Access [`index.php`](php/index.php) for all solutions
+  - Access `Day#.php` where # stands for day number
+    Example: `localhost/aoc2021/[Day5.php](php/Day5.php)` will get you solution of day 5.
+
+### Python
+
+```console
+    cd ./python
+    python main.py
+```
+
+```console
+    cd ./python
+    python Day1.py
+    python Day2.py
+    ...
+```
+
+## License
+
+Copyright (C) 2021 Simik31. All rights reserved.
+
+Licensed under the [WTFPL License](LICENSE).
+
 [u000]: https://adventofcode.com/2021/day/1
 [u001]: cpp/Day1.cpp#L3
 [u002]: cpp/Day1.cpp#L22
@@ -173,20 +235,20 @@ Click on star to go to code.
 [//]: <>
 
 [u105]: https://adventofcode.com/2021/day/8
-[u106]: #
-[u107]: #
-[u108]: #
-[u109]: #
-[u110]: #
-[u111]: #
-[u112]: #
-[u113]: #
-[u114]: #
-[u115]: #
-[u116]: #
-[u117]: #
-[u118]: #
-[u119]: #
+[u106]: #progress
+[u107]: #progress
+[u108]: #progress
+[u109]: #progress
+[u110]: #progress
+[u111]: #progress
+[u112]: #progress
+[u113]: #progress
+[u114]: #progress
+[u115]: #progress
+[u116]: #progress
+[u117]: #progress
+[u118]: #progress
+[u119]: #progress
 
 [//]: <>
 
