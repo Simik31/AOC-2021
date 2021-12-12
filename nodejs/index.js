@@ -1,4 +1,4 @@
-for (var day = 1; day <= 9; day++) {
+for (var day = 1; day <= 10; day++) {
     if (day === 8)
         continue;
 
