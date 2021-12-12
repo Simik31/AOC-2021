@@ -84,8 +84,10 @@ Open [`java/java.iml`](java/java.iml) in IntelliJ IDEA to build and run the proj
 
 - Run local server.
 - In browser:
+
   - Access [`/index.php`](php/index.php) for all solutions
-  - Access `Day#.php` where # stands for day number
+  - Access `/Day#.php` where # stands for day number
+
     Example: [`/Day5.php`](php/Day5.php) will get you solution of day 5.
 
 ### Python
