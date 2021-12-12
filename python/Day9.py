@@ -32,7 +32,7 @@ def part_1() -> None:
         if lowest_truths[r][c]
     )
 
-    print("Day:  9 | Part: 1 | Result: ", result)
+    print("Day:  9 | Part: 1 | Result:", result)
 
 
 def backtrack_basin(
@@ -99,10 +99,9 @@ def part_2() -> None:
                 basins.append(backtrack_basin(height_map, r, c, 0, []))
 
     basins.sort()
-    print(basins)
     result: int = basins[-1] * basins[-2] * basins[-3]
 
-    print("Day:  9 | Part: 2 | Result: ", result)
+    print("Day:  9 | Part: 2 | Result:", result)
 
 
 if __name__ == "__main__":
