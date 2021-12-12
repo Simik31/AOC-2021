@@ -61,6 +61,8 @@ Open [`cpp/cpp.sln`](cpp/cpp.sln) in [Visual Studio](https://visualstudio.micros
 ### C#
 
 Open [`cs/cs.sln`](cs/cs.sln) in [Visual Studio](https://visualstudio.microsoft.com/ "Get Visual Studio") to build and run the project.
+Run for platform `x64` (and ideally in `Release` mode)!
+Data paths are hardcoded to `x64` path (`x64` has to go 5x `../` while `Any CPU` has to go `../` only 4x).
 
 ### Go
 
