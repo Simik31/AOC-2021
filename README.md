@@ -88,6 +88,8 @@ Open [`java/AOC-2021.iml`](java/AOC-2021.iml) in [IntelliJ IDEA](https://www.jet
 
 ### PHP
 
+❗PHP solution of Day 7 Part 2 is for whatever reason extremely slow. Please be patient.
+
 - Run local server.
 - In browser:
 
