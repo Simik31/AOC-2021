@@ -84,9 +84,9 @@ Open [`java/java.iml`](java/java.iml) in IntelliJ IDEA to build and run the proj
 
 - Run local server.
 - In browser:
-  - Access [`index.php`](php/index.php) for all solutions
+  - Access [`/index.php`](php/index.php) for all solutions
   - Access `Day#.php` where # stands for day number
-    Example: `localhost/aoc2021/`[`Day5.php`](php/Day5.php) will get you solution of day 5.
+    Example: [`/Day5.php`](php/Day5.php) will get you solution of day 5.
 
 ### Python
 
@@ -94,6 +94,8 @@ Open [`java/java.iml`](java/java.iml) in IntelliJ IDEA to build and run the proj
     cd ./python
     python main.py
 ```
+
+Or you can run each solution separate:
 
 ```console
     cd ./python
