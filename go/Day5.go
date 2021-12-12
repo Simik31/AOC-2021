@@ -190,5 +190,5 @@ func Day5_Part2() {
 		}
 	}
 
-	fmt.Printf("Day:  5 | Part: 1 | Result: %d\n", counter)
+	fmt.Printf("Day:  5 | Part: 2 | Result: %d\n", counter)
 }
