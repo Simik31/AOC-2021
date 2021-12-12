@@ -1,13 +1,13 @@
 package main
 
 import (
-	"aoc2021/utils"
+	"aoc2021/Utils"
 	"fmt"
 	"strings"
 )
 
 func Day6_Part1() {
-	nums_s := strings.Split(utils.ReadFile("../data/day6.txt")[0], ",")
+	nums_s := strings.Split(Utils.ReadFile("../data/day6.txt")[0], ",")
 	ages := make(map[int]int, 0)
 
 	for age := -1; age < 9; age++ {
@@ -15,7 +15,7 @@ func Day6_Part1() {
 	}
 
 	for nums_id := range nums_s {
-		ages[utils.StrToInt(nums_s[nums_id], 10)]++
+		ages[Utils.StrToInt(nums_s[nums_id], 10)]++
 	}
 
 	for day := 0; day < 80; day++ {
@@ -35,7 +35,7 @@ func Day6_Part1() {
 }
 
 func Day6_Part2() {
-	nums_s := strings.Split(utils.ReadFile("../data/day6.txt")[0], ",")
+	nums_s := strings.Split(Utils.ReadFile("../data/day6.txt")[0], ",")
 	ages := make(map[int]int, 0)
 
 	for age := -1; age < 9; age++ {
@@ -43,7 +43,7 @@ func Day6_Part2() {
 	}
 
 	for nums_id := range nums_s {
-		ages[utils.StrToInt(nums_s[nums_id], 10)]++
+		ages[Utils.StrToInt(nums_s[nums_id], 10)]++
 	}
 
 	for day := 0; day < 256; day++ {

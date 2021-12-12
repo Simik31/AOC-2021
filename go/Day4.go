@@ -1,7 +1,7 @@
 package main
 
 import (
-	"aoc2021/utils"
+	"aoc2021/Utils"
 	"fmt"
 	"regexp"
 	"strings"
@@ -31,7 +31,7 @@ func test_board_for_bingo(marked [][]bool) bool {
 }
 
 func Day4_Part1() {
-	lines := utils.ReadFile("../data/day4.txt")
+	lines := Utils.ReadFile("../data/day4.txt")
 
 	rows := make([][][]int, 0)
 	mark := make([][][]bool, 0)
@@ -40,7 +40,7 @@ func Day4_Part1() {
 	var order []int
 
 	for order_id := range order_s {
-		order = append(order, utils.StrToInt(order_s[order_id], 10))
+		order = append(order, Utils.StrToInt(order_s[order_id], 10))
 	}
 
 	var board_id = -1
@@ -63,7 +63,7 @@ func Day4_Part1() {
 			for num_s_id := 0; num_s_id < len(num_s_v); num_s_id++ {
 				var num_s = num_s_v[num_s_id]
 				if num_s != "" {
-					rows[board_id][line_id] = append(rows[board_id][line_id], utils.StrToInt(num_s, 10))
+					rows[board_id][line_id] = append(rows[board_id][line_id], Utils.StrToInt(num_s, 10))
 					mark[board_id][line_id] = append(mark[board_id][line_id], false)
 				}
 			}
@@ -113,7 +113,7 @@ func Day4_Part1() {
 }
 
 func Day4_Part2() {
-	lines := utils.ReadFile("../data/day4.txt")
+	lines := Utils.ReadFile("../data/day4.txt")
 
 	bins := make([]bool, 0)
 	rows := make([][][]int, 0)
@@ -123,7 +123,7 @@ func Day4_Part2() {
 	var order []int
 
 	for order_id := range order_s {
-		order = append(order, utils.StrToInt(order_s[order_id], 10))
+		order = append(order, Utils.StrToInt(order_s[order_id], 10))
 	}
 
 	var board_id = -1
@@ -147,7 +147,7 @@ func Day4_Part2() {
 			for num_s_id := 0; num_s_id < len(num_s_v); num_s_id++ {
 				var num_s = num_s_v[num_s_id]
 				if num_s != "" {
-					rows[board_id][line_id] = append(rows[board_id][line_id], utils.StrToInt(num_s, 10))
+					rows[board_id][line_id] = append(rows[board_id][line_id], Utils.StrToInt(num_s, 10))
 					mark[board_id][line_id] = append(mark[board_id][line_id], false)
 				}
 			}

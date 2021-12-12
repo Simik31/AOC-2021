@@ -1,13 +1,13 @@
 package main
 
 import (
-	"aoc2021/utils"
+	"aoc2021/Utils"
 	"fmt"
 	"strings"
 )
 
 func Day5_Part1() {
-	lines := utils.ReadFile("../data/day5.txt")
+	lines := Utils.ReadFile("../data/day5.txt")
 
 	x1 := make([]int, 0)
 	y1 := make([]int, 0)
@@ -23,10 +23,10 @@ func Day5_Part1() {
 		one := strings.Split(points[0], ",")
 		two := strings.Split(points[1], ",")
 
-		var x_one = utils.StrToInt(one[0], 10)
-		var y_one = utils.StrToInt(one[1], 10)
-		var x_two = utils.StrToInt(two[0], 10)
-		var y_two = utils.StrToInt(two[1], 10)
+		var x_one = Utils.StrToInt(one[0], 10)
+		var y_one = Utils.StrToInt(one[1], 10)
+		var x_two = Utils.StrToInt(two[0], 10)
+		var y_two = Utils.StrToInt(two[1], 10)
 
 		x1 = append(x1, x_one)
 		y1 = append(y1, y_one)
@@ -93,7 +93,7 @@ func Day5_Part1() {
 }
 
 func Day5_Part2() {
-	lines := utils.ReadFile("../data/day5.txt")
+	lines := Utils.ReadFile("../data/day5.txt")
 
 	x1 := make([]int, 0)
 	y1 := make([]int, 0)
@@ -109,10 +109,10 @@ func Day5_Part2() {
 		one := strings.Split(points[0], ",")
 		two := strings.Split(points[1], ",")
 
-		var x_one = utils.StrToInt(one[0], 10)
-		var y_one = utils.StrToInt(one[1], 10)
-		var x_two = utils.StrToInt(two[0], 10)
-		var y_two = utils.StrToInt(two[1], 10)
+		var x_one = Utils.StrToInt(one[0], 10)
+		var y_one = Utils.StrToInt(one[1], 10)
+		var x_two = Utils.StrToInt(two[0], 10)
+		var y_two = Utils.StrToInt(two[1], 10)
 
 		x1 = append(x1, x_one)
 		y1 = append(y1, y_one)

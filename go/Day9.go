@@ -1,7 +1,7 @@
 package main
 
 import (
-	"aoc2021/utils"
+	"aoc2021/Utils"
 	"fmt"
 	"sort"
 )
@@ -10,7 +10,7 @@ func Day9_Part1() {
 	var height_map = make([][]int, 0)
 	var lowesr_truths = make([][]bool, 0)
 
-	lines := utils.ReadFile("../data/day9.txt")
+	lines := Utils.ReadFile("../data/day9.txt")
 
 	for line_id := range lines {
 		if lines[line_id] != "" {
@@ -18,7 +18,7 @@ func Day9_Part1() {
 			lowesr_truths = append(lowesr_truths, make([]bool, 0))
 
 			for char_id := range lines[line_id] {
-				height_map[len(height_map)-1] = append(height_map[len(height_map)-1], utils.StrToInt(string(lines[line_id][char_id]), 10))
+				height_map[len(height_map)-1] = append(height_map[len(height_map)-1], Utils.StrToInt(string(lines[line_id][char_id]), 10))
 				lowesr_truths[len(lowesr_truths)-1] = append(lowesr_truths[len(lowesr_truths)-1], false)
 			}
 		}
@@ -41,7 +41,7 @@ func Day9_Part1() {
 				truths = append(truths, height_map[r][c] < height_map[r][c+1])
 			}
 
-			lowesr_truths[r][c] = !utils.InArrayBool(truths, false)
+			lowesr_truths[r][c] = !Utils.InArrayBool(truths, false)
 		}
 	}
 
@@ -57,9 +57,9 @@ func Day9_Part1() {
 	fmt.Printf("Day:  9 | Part: 1 | Result: %d\n", sum)
 }
 
-func backtrack_basin(height_map *[][]int, r, c, counter int, visited *[]utils.Pair) int {
-	pair := utils.Pair{First: r, Second: c}
-	if utils.InArrayPair(*visited, pair) {
+func backtrack_basin(height_map *[][]int, r, c, counter int, visited *[]Utils.Pair) int {
+	pair := Utils.Pair{First: r, Second: c}
+	if Utils.InArrayPair(*visited, pair) {
 		return counter
 	}
 
@@ -90,7 +90,7 @@ func Day9_Part2() {
 	var height_map = make([][]int, 0)
 	var lowesr_truths = make([][]bool, 0)
 
-	lines := utils.ReadFile("../data/day9.txt")
+	lines := Utils.ReadFile("../data/day9.txt")
 
 	for line_id := range lines {
 		if lines[line_id] != "" {
@@ -98,7 +98,7 @@ func Day9_Part2() {
 			lowesr_truths = append(lowesr_truths, make([]bool, 0))
 
 			for char_id := range lines[line_id] {
-				height_map[len(height_map)-1] = append(height_map[len(height_map)-1], utils.StrToInt(string(lines[line_id][char_id]), 10))
+				height_map[len(height_map)-1] = append(height_map[len(height_map)-1], Utils.StrToInt(string(lines[line_id][char_id]), 10))
 				lowesr_truths[len(lowesr_truths)-1] = append(lowesr_truths[len(lowesr_truths)-1], false)
 			}
 		}
@@ -121,12 +121,12 @@ func Day9_Part2() {
 				truths = append(truths, height_map[r][c] < height_map[r][c+1])
 			}
 
-			lowesr_truths[r][c] = !utils.InArrayBool(truths, false)
+			lowesr_truths[r][c] = !Utils.InArrayBool(truths, false)
 		}
 	}
 
 	basins := make([]int, 0)
-	visited := make([]utils.Pair, 0)
+	visited := make([]Utils.Pair, 0)
 
 	for r := 0; r < len(height_map); r++ {
 		for c := 0; c < len(height_map[r]); c++ {

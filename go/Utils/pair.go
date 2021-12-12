@@ -1,4 +1,4 @@
-package utils
+package Utils
 
 type Pair struct {
 	First  int

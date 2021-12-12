@@ -1,12 +1,12 @@
 package main
 
 import (
-	"aoc2021/utils"
+	"aoc2021/Utils"
 	"fmt"
 )
 
 func Day1_Part1() {
-	nums := utils.ReadFileInts("../data/day1.txt")
+	nums := Utils.ReadFileInts("../data/day1.txt")
 
 	var last = -1
 	var count = 0
@@ -23,7 +23,7 @@ func Day1_Part1() {
 }
 
 func Day1_Part2() {
-	nums := utils.ReadFileInts("../data/day1.txt")
+	nums := Utils.ReadFileInts("../data/day1.txt")
 
 	var last = -1
 	var count = 0

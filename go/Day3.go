@@ -1,12 +1,12 @@
 package main
 
 import (
-	"aoc2021/utils"
+	"aoc2021/Utils"
 	"fmt"
 )
 
 func Day3_Part1() {
-	data := utils.ReadFile("../data/day3.txt")
+	data := Utils.ReadFile("../data/day3.txt")
 
 	var gama = 0
 	var epsilon = 0
@@ -15,7 +15,7 @@ func Day3_Part1() {
 		var counter = []int{0, 0}
 
 		for r := range data {
-			counter[utils.StrToInt8(string(data[r][i]), 10)]++
+			counter[Utils.StrToInt8(string(data[r][i]), 10)]++
 		}
 
 		var g int
@@ -35,7 +35,7 @@ func Day3_Part1() {
 }
 
 func Day3_Part2() {
-	data_og := utils.ReadFile("../data/day3.txt")
+	data_og := Utils.ReadFile("../data/day3.txt")
 	data_co2s := data_og
 
 	for i := 0; i < len(data_og[0]); i++ {
@@ -43,7 +43,7 @@ func Day3_Part2() {
 			var counter = []int{0, 0}
 
 			for r := range data_og {
-				counter[utils.StrToInt8(string(data_og[r][i]), 10)]++
+				counter[Utils.StrToInt8(string(data_og[r][i]), 10)]++
 			}
 
 			var b byte
@@ -68,7 +68,7 @@ func Day3_Part2() {
 			var counter = []int{0, 0}
 
 			for r := range data_co2s {
-				counter[utils.StrToInt8(string(data_co2s[r][i]), 10)]++
+				counter[Utils.StrToInt8(string(data_co2s[r][i]), 10)]++
 			}
 
 			var b byte
@@ -95,5 +95,5 @@ func Day3_Part2() {
 
 	}
 
-	fmt.Printf("Day:  3 | Part: 2 | Result: %d\n", utils.StrToInt64(data_og[0], 2)*utils.StrToInt64(data_co2s[0], 2))
+	fmt.Printf("Day:  3 | Part: 2 | Result: %d\n", Utils.StrToInt64(data_og[0], 2)*Utils.StrToInt64(data_co2s[0], 2))
 }

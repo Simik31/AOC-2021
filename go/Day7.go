@@ -1,18 +1,18 @@
 package main
 
 import (
-	"aoc2021/utils"
+	"aoc2021/Utils"
 	"fmt"
 	"math"
 	"strings"
 )
 
 func Day7_Part1() {
-	nums_s := strings.Split(utils.ReadFile("../data/day7.txt")[0], ",")
+	nums_s := strings.Split(Utils.ReadFile("../data/day7.txt")[0], ",")
 	positions := make([]int, 0)
 
 	for nums_id := range nums_s {
-		positions = append(positions, utils.StrToInt(nums_s[nums_id], 10))
+		positions = append(positions, Utils.StrToInt(nums_s[nums_id], 10))
 	}
 
 	var min_cost = int(^uint(0) >> 1)
@@ -33,12 +33,12 @@ func Day7_Part1() {
 }
 
 func Day7_Part2() {
-	nums_s := strings.Split(utils.ReadFile("../data/day7.txt")[0], ",")
+	nums_s := strings.Split(Utils.ReadFile("../data/day7.txt")[0], ",")
 	positions := make([]int, 0)
 	var max_position = 0
 
 	for nums_id := range nums_s {
-		position := utils.StrToInt(nums_s[nums_id], 10)
+		position := Utils.StrToInt(nums_s[nums_id], 10)
 		positions = append(positions, position)
 
 		if position > max_position {

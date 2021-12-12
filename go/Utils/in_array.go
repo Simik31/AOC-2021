@@ -1,4 +1,4 @@
-package utils
+package Utils
 
 func InArrayBool(arr []bool, toFind bool) bool {
 	for index := range arr {

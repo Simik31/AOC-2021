@@ -1,13 +1,13 @@
 package main
 
 import (
-	"aoc2021/utils"
+	"aoc2021/Utils"
 	"fmt"
 	"strings"
 )
 
 func Day2_Part1() {
-	input := utils.ReadFile("../data/day2.txt")
+	input := Utils.ReadFile("../data/day2.txt")
 
 	var h_pos = 0
 	var v_pos = 0
@@ -15,7 +15,7 @@ func Day2_Part1() {
 	for row := range input {
 		parts := strings.Fields(input[row])
 
-		value := utils.StrToInt(parts[1], 10)
+		value := Utils.StrToInt(parts[1], 10)
 		switch parts[0] {
 		case "forward":
 			h_pos += value
@@ -32,7 +32,7 @@ func Day2_Part1() {
 }
 
 func Day2_Part2() {
-	input := utils.ReadFile("../data/day2.txt")
+	input := Utils.ReadFile("../data/day2.txt")
 
 	var h_pos = 0
 	var v_pos = 0
@@ -41,7 +41,7 @@ func Day2_Part2() {
 	for row := range input {
 		parts := strings.Fields(input[row])
 
-		value := utils.StrToInt(parts[1], 10)
+		value := Utils.StrToInt(parts[1], 10)
 		switch parts[0] {
 		case "forward":
 			h_pos += value
