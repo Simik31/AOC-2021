@@ -48,7 +48,7 @@ def part_2() -> None:
             if not corrupted:
                 while pairs:
                     score = score * 5 + opens.index(pairs.pop()) + 1
-                    scores.append(score)
+                scores.append(score)
 
     scores.sort()
     result: int = scores[int(len(scores) / 2)]
