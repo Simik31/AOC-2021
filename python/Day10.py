@@ -28,7 +28,7 @@ def part_1() -> None:
 def part_2() -> None:
     opens: list[str] = ["(", "[", "{", "<"]
     closes: list[str] = [")", "]", "}", ">"]
-    scores: list[list[str]] = []
+    scores: list[int] = []
 
     with open("../data/day10.txt", "r") as dFile:
         for line in dFile.readlines():
