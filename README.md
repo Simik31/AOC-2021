@@ -73,7 +73,8 @@ Data paths are hardcoded to `x64` path (`x64` has to go 5x `../` while `Any CPU`
 
 ### Java
 
-Open [`java/java.iml`](java/java.iml) in [IntelliJ IDEA](https://www.jetbrains.com/idea/ "Get IntelliJ IDEA") to build and run the project.
+Open [`java/AOC-2021.iml`](java/AOC-2021.iml) in [IntelliJ IDEA](https://www.jetbrains.com/idea/ "Get IntelliJ IDEA") to run the project.
+Run the project by clicking on the green arrow next to the [`public class Main {`](java/Main.java#L3) in [`Main.java`](java/Main.java).
 
 ### Node.js
 
