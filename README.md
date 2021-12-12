@@ -118,180 +118,180 @@ Copyright (C) 2021 Simik31. All rights reserved.
 
 Licensed under the [WTFPL License](LICENSE).
 
-[u000]: https://adventofcode.com/2021/day/1
-[u001]: cpp/Day1.cpp#L3
-[u002]: cpp/Day1.cpp#L22
-[u003]: cs/Day1.cs#L8
-[u004]: cs/Day1.cs#L25
-[u005]: go/Day1.go#L8
-[u006]: go/Day1.go#L25
-[u007]: java/src/cz/simik31/aoc2021/Day1.java#L5
-[u008]: java/src/cz/simik31/aoc2021/Day1.java#L18
-[u009]: nodejs/Day1.js#L4
-[u010]: nodejs/Day1.js#L19
-[u011]: php/Day1.php#L4
-[u012]: php/Day1.php#L19
-[u013]: python/Day1.py#L1
-[u014]: python/Day1.py#L17
+[u000]: https://adventofcode.com/2021/day/1 "Description of Day 1"
+[u001]: cpp/Day1.cpp#L3 "Solution in C++ for Day 1 Part 1"
+[u002]: cpp/Day1.cpp#L22 "Solution in C++ for Day 1 Part 2"
+[u003]: cs/Day1.cs#L8 "Solution in C# for Day 1 Part 1"
+[u004]: cs/Day1.cs#L25 "Solution in C# for Day 1 Part 2"
+[u005]: go/Day1.go#L8 "Solution in GO for Day 1 Part 1"
+[u006]: go/Day1.go#L25 "Solution in GO for Day 1 Part 2"
+[u007]: java/src/cz/simik31/aoc2021/Day1.java#L5 "Solution in Java for Day 1 Part 1"
+[u008]: java/src/cz/simik31/aoc2021/Day1.java#L18 "Solution in Java for Day 1 Part 2"
+[u009]: nodejs/Day1.js#L4 "Solution in Node.js for Day 1 Part 1"
+[u010]: nodejs/Day1.js#L19 "Solution in Node.js for Day 1 Part 2"
+[u011]: php/Day1.php#L4 "Solution in PHP for Day 1 Part 1"
+[u012]: php/Day1.php#L19 "Solution in PHP for Day 1 Part 2"
+[u013]: python/Day1.py#L1 "Solution in Python for Day 1 Part 1"
+[u014]: python/Day1.py#L17 "Solution in Python for Day 1 Part 2"
 
 [//]: <>
 
-[u015]: https://adventofcode.com/2021/day/2
-[u016]: cpp/Day2.cpp#L3
-[u017]: cpp/Day2.cpp#L36
-[u018]: cs/Day2.cs#L10
-[u019]: cs/Day2.cs#L36
-[u020]: go/Day2.go#L9
-[u021]: go/Day2.go#L34
-[u022]: java/src/cz/simik31/aoc2021/Day2.java#L6
-[u023]: java/src/cz/simik31/aoc2021/Day2.java#L26
-[u024]: nodejs/Day2.js#L4
-[u025]: nodejs/Day2.js#L29
-[u026]: php/Day2.php#L4
-[u027]: php/Day2.php#L29
-[u028]: python/Day2.py#L1
-[u029]: python/Day2.py#L22
+[u015]: https://adventofcode.com/2021/day/2 "Description of Day 2"
+[u016]: cpp/Day2.cpp#L3 "Solution in C++ for Day 2 Part 1"
+[u017]: cpp/Day2.cpp#L36 "Solution in C++ for Day 2 Part 2"
+[u018]: cs/Day2.cs#L10 "Solution in C# for Day 2 Part 1"
+[u019]: cs/Day2.cs#L36 "Solution in C# for Day 2 Part 2"
+[u020]: go/Day2.go#L9 "Solution in GO for Day 2 Part 1"
+[u021]: go/Day2.go#L34 "Solution in GO for Day 2 Part 2"
+[u022]: java/src/cz/simik31/aoc2021/Day2.java#L6 "Solution in Java for Day 2 Part 1"
+[u023]: java/src/cz/simik31/aoc2021/Day2.java#L26 "Solution in Java for Day 2 Part 2"
+[u024]: nodejs/Day2.js#L4 "Solution in Node.js for Day 2 Part 1"
+[u025]: nodejs/Day2.js#L29 "Solution in Node.js for Day 2 Part 2"
+[u026]: php/Day2.php#L4 "Solution in PHP for Day 2 Part 1"
+[u027]: php/Day2.php#L29 "Solution in PHP for Day 2 Part 2"
+[u028]: python/Day2.py#L1 "Solution in Python for Day 2 Part 1"
+[u029]: python/Day2.py#L22 "Solution in Python for Day 2 Part 2"
 
 [//]: <>
 
-[u030]: https://adventofcode.com/2021/day/3
-[u031]: cpp/Day3.cpp#L3
-[u032]: cpp/Day3.cpp#L35
-[u033]: cs/Day3.cs#L8
-[u034]: cs/Day3.cs#L29
-[u035]: go/Day3.go#L8
-[u036]: go/Day3.go#L37
-[u037]: java/src/cz/simik31/aoc2021/Day3.java#L6
-[u038]: java/src/cz/simik31/aoc2021/Day3.java#L26
-[u039]: nodejs/Day3.js#L4
-[u040]: nodejs/Day3.js#L21
-[u041]: php/Day3.php#L4
-[u042]: php/Day3.php#L23
-[u043]: python/Day3.py#L1
-[u044]: python/Day3.py#L22
+[u030]: https://adventofcode.com/2021/day/3 "Description of Day 3"
+[u031]: cpp/Day3.cpp#L3 "Solution in C++ for Day 3 Part 1"
+[u032]: cpp/Day3.cpp#L35 "Solution in C++ for Day 3 Part 2"
+[u033]: cs/Day3.cs#L8 "Solution in C# for Day 3 Part 1"
+[u034]: cs/Day3.cs#L29 "Solution in C# for Day 3 Part 2"
+[u035]: go/Day3.go#L8 "Solution in GO for Day 3 Part 1"
+[u036]: go/Day3.go#L37 "Solution in GO for Day 3 Part 2"
+[u037]: java/src/cz/simik31/aoc2021/Day3.java#L6 "Solution in Java for Day 3 Part 1"
+[u038]: java/src/cz/simik31/aoc2021/Day3.java#L26 "Solution in Java for Day 3 Part 2"
+[u039]: nodejs/Day3.js#L4 "Solution in Node.js for Day 3 Part 1"
+[u040]: nodejs/Day3.js#L21 "Solution in Node.js for Day 3 Part 2"
+[u041]: php/Day3.php#L4 "Solution in PHP for Day 3 Part 1"
+[u042]: php/Day3.php#L23 "Solution in PHP for Day 3 Part 2"
+[u043]: python/Day3.py#L1 "Solution in Python for Day 3 Part 1"
+[u044]: python/Day3.py#L22 "Solution in Python for Day 3 Part 2"
 
 [//]: <>
 
-[u045]: https://adventofcode.com/2021/day/4
-[u046]: cpp/Day4.cpp#L23
-[u047]: cpp/Day4.cpp#L98
-[u048]: cs/Day4.cs#L21
-[u049]: cs/Day4.cs#L83
-[u050]: go/Day4.go#L33
-[u051]: go/Day4.go#L115
-[u052]: java/src/cz/simik31/aoc2021/Day4.java#L21
-[u053]: java/src/cz/simik31/aoc2021/Day4.java#L80
-[u054]: nodejs/Day4.js#L27
-[u055]: nodejs/Day4.js#L93
-[u056]: php/Day4.php#L26
-[u057]: php/Day4.php#L97
-[u058]: python/Day4.py#L22
-[u059]: python/Day4.py#L74
+[u045]: https://adventofcode.com/2021/day/4 "Description of Day 4"
+[u046]: cpp/Day4.cpp#L23 "Solution in C++ for Day 4 Part 1"
+[u047]: cpp/Day4.cpp#L98 "Solution in C++ for Day 4 Part 2"
+[u048]: cs/Day4.cs#L21 "Solution in C# for Day 4 Part 1"
+[u049]: cs/Day4.cs#L83 "Solution in C# for Day 4 Part 2"
+[u050]: go/Day4.go#L33 "Solution in GO for Day 4 Part 1"
+[u051]: go/Day4.go#L115 "Solution in GO for Day 4 Part 2"
+[u052]: java/src/cz/simik31/aoc2021/Day4.java#L21 "Solution in Java for Day 4 Part 1"
+[u053]: java/src/cz/simik31/aoc2021/Day4.java#L80 "Solution in Java for Day 4 Part 2"
+[u054]: nodejs/Day4.js#L27 "Solution in Node.js for Day 4 Part 1"
+[u055]: nodejs/Day4.js#L93 "Solution in Node.js for Day 4 Part 2"
+[u056]: php/Day4.php#L26 "Solution in PHP for Day 4 Part 1"
+[u057]: php/Day4.php#L97 "Solution in PHP for Day 4 Part 2"
+[u058]: python/Day4.py#L22 "Solution in Python for Day 4 Part 1"
+[u059]: python/Day4.py#L74 "Solution in Python for Day 4 Part 2"
 
 [//]: <>
 
-[u060]: https://adventofcode.com/2021/day/5
-[u061]: cpp/Day5.cpp#L3
-[u062]: cpp/Day5.cpp#L72
-[u063]: cs/Day5.cs#L12
-[u064]: cs/Day5.cs#L78
-[u065]: go/Day5.go#L9
-[u066]: go/Day5.go#L95
-[u067]: java/src/cz/simik31/aoc2021/Day5.java#L9
-[u068]: java/src/cz/simik31/aoc2021/Day5.java#L73
-[u069]: nodejs/Day5.js#L4
-[u070]: nodejs/Day5.js#L56
-[u071]: php/Day5.php#L4
-[u072]: php/Day5.php#L64
-[u073]: python/Day5.py#L1
-[u074]: python/Day5.py#L50
+[u060]: https://adventofcode.com/2021/day/5 "Description of Day 5"
+[u061]: cpp/Day5.cpp#L3 "Solution in C++ for Day 5 Part 1"
+[u062]: cpp/Day5.cpp#L72 "Solution in C++ for Day 5 Part 2"
+[u063]: cs/Day5.cs#L12 "Solution in C# for Day 5 Part 1"
+[u064]: cs/Day5.cs#L78 "Solution in C# for Day 5 Part 2"
+[u065]: go/Day5.go#L9 "Solution in GO for Day 5 Part 1"
+[u066]: go/Day5.go#L95 "Solution in GO for Day 5 Part 2"
+[u067]: java/src/cz/simik31/aoc2021/Day5.java#L9 "Solution in Java for Day 5 Part 1"
+[u068]: java/src/cz/simik31/aoc2021/Day5.java#L73 "Solution in Java for Day 5 Part 2"
+[u069]: nodejs/Day5.js#L4 "Solution in Node.js for Day 5 Part 1"
+[u070]: nodejs/Day5.js#L56 "Solution in Node.js for Day 5 Part 2"
+[u071]: php/Day5.php#L4 "Solution in PHP for Day 5 Part 1"
+[u072]: php/Day5.php#L64 "Solution in PHP for Day 5 Part 2"
+[u073]: python/Day5.py#L1 "Solution in Python for Day 5 Part 1"
+[u074]: python/Day5.py#L50 "Solution in Python for Day 5 Part 2"
 
 [//]: <>
 
-[u075]: https://adventofcode.com/2021/day/6
-[u076]: cpp/Day6.cpp#L3
-[u077]: cpp/Day6.cpp#L35
-[u078]: cs/Day6.cs#L10
-[u079]: cs/Day6.cs#L27
-[u080]: go/Day6.go#L9
-[u081]: go/Day6.go#L37
-[u082]: java/src/cz/simik31/aoc2021/Day6.java#L7
-[u083]: java/src/cz/simik31/aoc2021/Day6.java#L29
-[u084]: nodejs/Day6.js#L4
-[u085]: nodejs/Day6.js#L27
-[u086]: php/Day6.php#L4
-[u087]: php/Day6.php#L28
-[u088]: python/Day6.py#L1
-[u089]: python/Day6.py#L16
+[u075]: https://adventofcode.com/2021/day/6 "Description of Day 6"
+[u076]: cpp/Day6.cpp#L3 "Solution in C++ for Day 6 Part 1"
+[u077]: cpp/Day6.cpp#L35 "Solution in C++ for Day 6 Part 2"
+[u078]: cs/Day6.cs#L10 "Solution in C# for Day 6 Part 1"
+[u079]: cs/Day6.cs#L27 "Solution in C# for Day 6 Part 2"
+[u080]: go/Day6.go#L9 "Solution in GO for Day 6 Part 1"
+[u081]: go/Day6.go#L37 "Solution in GO for Day 6 Part 2"
+[u082]: java/src/cz/simik31/aoc2021/Day6.java#L7 "Solution in Java for Day 6 Part 1"
+[u083]: java/src/cz/simik31/aoc2021/Day6.java#L29 "Solution in Java for Day 6 Part 2"
+[u084]: nodejs/Day6.js#L4 "Solution in Node.js for Day 6 Part 1"
+[u085]: nodejs/Day6.js#L27 "Solution in Node.js for Day 6 Part 2"
+[u086]: php/Day6.php#L4 "Solution in PHP for Day 6 Part 1"
+[u087]: php/Day6.php#L28 "Solution in PHP for Day 6 Part 2"
+[u088]: python/Day6.py#L1 "Solution in Python for Day 6 Part 1"
+[u089]: python/Day6.py#L16 "Solution in Python for Day 6 Part 2"
 
 [//]: <>
 
-[u090]: https://adventofcode.com/2021/day/7
-[u091]: cpp/Day7.cpp#L3
-[u092]: cpp/Day7.cpp#L34
-[u093]: cs/Day7.cs#L10
-[u094]: cs/Day7.cs#L29
-[u095]: go/Day7.go#L10
-[u096]: go/Day7.go#L35
-[u097]: java/src/cz/simik31/aoc2021/Day7.java#L8
-[u098]: java/src/cz/simik31/aoc2021/Day7.java#L27
-[u099]: nodejs/Day7.js#L4
-[u100]: nodejs/Day7.js#L25
-[u101]: php/Day7.php#L4
-[u102]: php/Day7.php#L25
-[u103]: python/Day7.py#L4
-[u104]: python/Day7.py#L24
+[u090]: https://adventofcode.com/2021/day/7 "Description of Day 7"
+[u091]: cpp/Day7.cpp#L3 "Solution in C++ for Day 7 Part 1"
+[u092]: cpp/Day7.cpp#L34 "Solution in C++ for Day 7 Part 2"
+[u093]: cs/Day7.cs#L10 "Solution in C# for Day 7 Part 1"
+[u094]: cs/Day7.cs#L29 "Solution in C# for Day 7 Part 2"
+[u095]: go/Day7.go#L10 "Solution in GO for Day 7 Part 1"
+[u096]: go/Day7.go#L35 "Solution in GO for Day 7 Part 2"
+[u097]: java/src/cz/simik31/aoc2021/Day7.java#L8 "Solution in Java for Day 7 Part 1"
+[u098]: java/src/cz/simik31/aoc2021/Day7.java#L27 "Solution in Java for Day 7 Part 2"
+[u099]: nodejs/Day7.js#L4 "Solution in Node.js for Day 7 Part 1"
+[u100]: nodejs/Day7.js#L25 "Solution in Node.js for Day 7 Part 2"
+[u101]: php/Day7.php#L4 "Solution in PHP for Day 7 Part 1"
+[u102]: php/Day7.php#L25 "Solution in PHP for Day 7 Part 2"
+[u103]: python/Day7.py#L4 "Solution in Python for Day 7 Part 1"
+[u104]: python/Day7.py#L24 "Solution in Python for Day 7 Part 2"
 
 [//]: <>
 
-[u105]: https://adventofcode.com/2021/day/8
-[u106]: #progress
-[u107]: #progress
-[u108]: #progress
-[u109]: #progress
-[u110]: #progress
-[u111]: #progress
-[u112]: #progress
-[u113]: #progress
-[u114]: #progress
-[u115]: #progress
-[u116]: #progress
-[u117]: #progress
-[u118]: #progress
-[u119]: #progress
+[u105]: https://adventofcode.com/2021/day/8 "Description of Day 8"
+[u106]: #progress "No solution yet :("
+[u107]: #progress "No solution yet :("
+[u108]: #progress "No solution yet :("
+[u109]: #progress "No solution yet :("
+[u110]: #progress "No solution yet :("
+[u111]: #progress "No solution yet :("
+[u112]: #progress "No solution yet :("
+[u113]: #progress "No solution yet :("
+[u114]: #progress "No solution yet :("
+[u115]: #progress "No solution yet :("
+[u116]: #progress "No solution yet :("
+[u117]: #progress "No solution yet :("
+[u118]: #progress "No solution yet :("
+[u119]: #progress "No solution yet :("
 
 [//]: <>
 
-[u120]: https://adventofcode.com/2021/day/9
-[u121]: cpp/Day9.cpp#L3
-[u122]: cpp/Day9.cpp#L79
-[u123]: cs/Day9.cs#L10
-[u124]: cs/Day9.cs#L81
-[u125]: go/Day9.go#L9
-[u126]: go/Day9.go#L89
-[u127]: java/src/cz/simik31/aoc2021/Day9.java#L7
-[u128]: java/src/cz/simik31/aoc2021/Day9.java#L73
-[u129]: nodejs/Day9.js#L4
-[u130]: nodejs/Day9.js#L46
-[u131]: php/Day9.php#L4
-[u132]: php/Day9.php#L70
-[u133]: python/Day9.py#L1
-[u134]: python/Day9.py#L67
+[u120]: https://adventofcode.com/2021/day/9 "Description of Day 9"
+[u121]: cpp/Day9.cpp#L3 "Solution in C++ for Day 9 Part 1"
+[u122]: cpp/Day9.cpp#L79 "Solution in C++ for Day 9 Part 2"
+[u123]: cs/Day9.cs#L10 "Solution in C# for Day 9 Part 1"
+[u124]: cs/Day9.cs#L81 "Solution in C# for Day 9 Part 2"
+[u125]: go/Day9.go#L9 "Solution in GO for Day 9 Part 1"
+[u126]: go/Day9.go#L89 "Solution in GO for Day 9 Part 2"
+[u127]: java/src/cz/simik31/aoc2021/Day9.java#L7 "Solution in Java for Day 9 Part 1"
+[u128]: java/src/cz/simik31/aoc2021/Day9.java#L73 "Solution in Java for Day 9 Part 2"
+[u129]: nodejs/Day9.js#L4 "Solution in Node.js for Day 9 Part 1"
+[u130]: nodejs/Day9.js#L46 "Solution in Node.js for Day 9 Part 2"
+[u131]: php/Day9.php#L4 "Solution in PHP for Day 9 Part 1"
+[u132]: php/Day9.php#L70 "Solution in PHP for Day 9 Part 2"
+[u133]: python/Day9.py#L1 "Solution in Python for Day 9 Part 1"
+[u134]: python/Day9.py#L67 "Solution in Python for Day 9 Part 2"
 
 [//]: <>
 
-[u135]: https://adventofcode.com/2021/day/10
-[u136]: cpp/Day10.cpp#L3
-[u137]: cpp/Day10.cpp#L34
-[u138]: cs/Day10.cs#L10
-[u139]: cs/Day10.cs#L39
-[u140]: go/Day10.go#L9
-[u141]: go/Day10.go#L35
-[u142]: java/src/cz/simik31/aoc2021/Day10.java#L6
-[u143]: java/src/cz/simik31/aoc2021/Day10.java#L31
-[u144]: nodejs/Day10.js#L4
-[u145]: nodejs/Day10.js#L29
-[u146]: php/Day10.php#L4
-[u147]: php/Day10.php#L28
-[u148]: python/Day10.py#L1
-[u149]: python/Day10.py#L28
+[u135]: https://adventofcode.com/2021/day/10 "Description of Day 10"
+[u136]: cpp/Day10.cpp#L3 "Solution in C++ for Day 10 Part 1"
+[u137]: cpp/Day10.cpp#L34 "Solution in C++ for Day 10 Part 2"
+[u138]: cs/Day10.cs#L10 "Solution in C# for Day 10 Part 1"
+[u139]: cs/Day10.cs#L39 "Solution in C# for Day 10 Part 2"
+[u140]: go/Day10.go#L9 "Solution in GO for Day 10 Part 1"
+[u141]: go/Day10.go#L35 "Solution in GO for Day 10 Part 2"
+[u142]: java/src/cz/simik31/aoc2021/Day10.java#L6 "Solution in Java for Day 10 Part 1"
+[u143]: java/src/cz/simik31/aoc2021/Day10.java#L31 "Solution in Java for Day 10 Part 2"
+[u144]: nodejs/Day10.js#L4 "Solution in Node.js for Day 10 Part 1"
+[u145]: nodejs/Day10.js#L29 "Solution in Node.js for Day 10 Part 2"
+[u146]: php/Day10.php#L4 "Solution in PHP for Day 10 Part 1"
+[u147]: php/Day10.php#L28 "Solution in PHP for Day 10 Part 2"
+[u148]: python/Day10.py#L1 "Solution in Python for Day 10 Part 1"
+[u149]: python/Day10.py#L28 "Solution in Python for Day 10 Part 2"
