@@ -21,4 +21,6 @@ func main() {
 	Day9_Part2()
 	Day10_Part1()
 	Day10_Part2()
+	Day11_Part1()
+	Day11_Part2()
 }
