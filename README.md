@@ -56,11 +56,11 @@ Get the code:
 
 ### C++
 
-Open [`cpp/cpp.sln`](cpp/cpp.sln) in Visual Studio to build and run the project.
+Open [`cpp/cpp.sln`](cpp/cpp.sln) in [Visual Studio](https://visualstudio.microsoft.com/) to build and run the project.
 
 ### C#
 
-Open [`cs/cs.sln`](cs/cs.sln) in Visual Studio to build and run the project.
+Open [`cs/cs.sln`](cs/cs.sln) in [Visual Studio](https://visualstudio.microsoft.com/) to build and run the project.
 
 ### Go
 
@@ -71,7 +71,7 @@ Open [`cs/cs.sln`](cs/cs.sln) in Visual Studio to build and run the project.
 
 ### Java
 
-Open [`java/java.iml`](java/java.iml) in IntelliJ IDEA to build and run the project.
+Open [`java/java.iml`](java/java.iml) in [IntelliJ IDEA](https://www.jetbrains.com/idea/) to build and run the project.
 
 ### Node.js
 
