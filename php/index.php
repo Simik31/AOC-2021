@@ -1,7 +1,7 @@
 <?php
     set_time_limit(3600);
     
-    for ($day = 1; $day <= 10; $day++) {
+    for ($day = 1; $day <= 11; $day++) {
         if ($day == 8)
             continue;
             
