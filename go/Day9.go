@@ -139,5 +139,5 @@ func Day9_Part2() {
 	sort.Ints(basins[:])
 	var result = basins[len(basins)-1] * basins[len(basins)-2] * basins[len(basins)-3]
 
-	fmt.Printf("Day:  9 | Part: 1 | Result: %d\n", result)
+	fmt.Printf("Day:  9 | Part: 2 | Result: %d\n", result)
 }
