@@ -38,20 +38,11 @@ namespace cs
             string fold_axis = insterest.Split("=")[0];
             int fold_index = int.Parse(insterest.Split("=")[1]);
 
-            if (fold_axis == "x")
-                for (int line = 0; line < paper.Count; line++)
-                {
-                    for (int index = 0; index < longest - fold_index - 1; index++)
-                        paper[line][index] |= paper[line][longest - index - 1];
-                    paper[line].RemoveRange(fold_index, fold_index + 1);
-                }
-
-            else if (fold_axis == "y")
+            for (int line = 0; line < paper.Count; line++)
             {
-                for (int line = 0; line < paper.Count - fold_index - 1; line++)
-                    for (int index = 0; index < longest; index++)
-                        paper[line][index] |= paper[paper.Count - line - 1][index];
-                paper.RemoveRange(fold_index, fold_index + 1);
+                for (int index = 0; index < longest - fold_index - 1; index++)
+                    paper[line][index] |= paper[line][longest - index - 1];
+                paper[line].RemoveRange(fold_index, fold_index + 1);
             }
 
             int result = 0;
