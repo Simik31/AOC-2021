@@ -43,3 +43,11 @@ func IndexOf(arr []string, toFind string) int {
 func RemoveAt(arr []string, index int) []string {
 	return append(arr[:index], arr[index+1:]...)
 }
+
+func RemoveAtBool(arr []bool, index int) []bool {
+	return append(arr[:index], arr[index+1:]...)
+}
+
+func RemoveAtArrayBool(arr [][]bool, index int) [][]bool {
+	return append(arr[:index], arr[index+1:]...)
+}
