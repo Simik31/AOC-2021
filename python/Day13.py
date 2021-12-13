@@ -33,8 +33,9 @@ def part_1() -> None:
         elif fold_axis == "y":
             for line in range(len(paper) - fold_index - 1):
                 for index in range(longest):
-                    paper[line][index] |= paper[0 - line - 1][index]
+                    paper[line][index] |= paper[len(paper) - line - 1][index]
             paper = paper[:fold_index]
+
         result = sum(1 for line in paper for char in line if char)
 
         print("Day: 13 | Part: 1 | Result:", result)
