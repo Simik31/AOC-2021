@@ -1,9 +1,8 @@
 #include "Utils.h"
 
-void Utils::read_lines_from_file(string filename, vector<string>& lines)
+ void Utils::read_lines_from_file(const string& filename, vector<string>& lines)
 {
-    ifstream file;
-    file.open(filename);
+    ifstream file{ filename };
 
     if (!file.is_open())
     {
@@ -16,13 +15,11 @@ void Utils::read_lines_from_file(string filename, vector<string>& lines)
     string line;
     while (getline(file, line))
         lines.push_back(line);
-
-    file.close();
 }
 
-void Utils::split_string(string& str, const char* sep, vector<string>& strings)
+void Utils::split_string(const string& str, const char* sep, vector<string>& strings)
 {
-    string separator = string(sep);
+    string separator{ sep };
     size_t initialPos = 0;
     size_t pos;
 
@@ -37,10 +34,10 @@ void Utils::split_string(string& str, const char* sep, vector<string>& strings)
     strings.push_back(str.substr(initialPos, min(pos, str.size()) - initialPos + 1));
 }
 
-void Utils::split_string_regex(string& str, string regex_str, vector<string>& strings)
+void Utils::split_string_regex(const string& str, const string& regex_str, vector<string>& strings)
 {
-    regex reg_ex(regex_str);
-    sregex_token_iterator iter(str.begin(), str.end(), reg_ex, -1);
+    regex reg_ex{ regex_str };
+    sregex_token_iterator iter{ str.begin(), str.end(), reg_ex, -1 };
     sregex_token_iterator end;
 
     strings.clear();

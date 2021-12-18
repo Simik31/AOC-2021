@@ -12,8 +12,8 @@ using namespace std;
 class Utils
 {
 public:
-	static void read_lines_from_file(string filename, vector<string>& lines);
-	static void split_string(string& str, const char* sep, vector<string>& strings);
-	static void split_string_regex(string& str, string regex, vector<string>& strings);
+    static void read_lines_from_file(const string& filename, vector<string>& lines);
+    static void split_string(const string& str, const char* sep, vector<string>& strings);
+    static void split_string_regex(const string& str, const string& regex_str, vector<string>& strings);
 };
 #endif
