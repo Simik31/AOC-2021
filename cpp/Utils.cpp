@@ -45,3 +45,14 @@ void Utils::split_string_regex(const string& str, const string& regex_str, vecto
     while (iter != end)
         strings.push_back(*(iter++));
 }
+
+size_t Utils::count_substring(const string& str, const string& substr)
+{
+    if (substr.length() == 0) return 0;
+
+    size_t count = 0;
+    for (size_t offset = str.find(substr); offset != std::string::npos; offset = str.find(substr, offset + substr.length()))
+        ++count;
+
+    return count;
+}
